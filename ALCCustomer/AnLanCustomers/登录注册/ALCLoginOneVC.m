@@ -22,6 +22,10 @@
 @property (weak, nonatomic) IBOutlet UIView *viewOne;
 @property(nonatomic,assign)BOOL isVerLogin;
 
+@property (weak, nonatomic) IBOutlet UILabel *otherLB;
+@property (weak, nonatomic) IBOutlet UIButton *weiChatBt;
+@property (weak, nonatomic) IBOutlet UIButton *QQBt;
+
 @end
 
 @implementation ALCLoginOneVC
@@ -40,6 +44,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
+       self.otherLB.hidden = self.QQBt.hidden = self.weiChatBt.hidden = [zkSignleTool shareTool].isUp;
+    
     if ([zkSignleTool shareTool].telphone.length > 0) {
         
        TDTouchIDSupperType type = [[TDTouchID sharedInstance] td_canSupperBiometrics];

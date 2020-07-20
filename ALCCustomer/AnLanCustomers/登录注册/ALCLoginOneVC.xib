@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ALCLoginOneVC">
             <connections>
+                <outlet property="QQBt" destination="5K8-yh-ShS" id="tRX-qq-Uqi"/>
                 <outlet property="TF" destination="NZN-tS-jbr" id="Wjz-hX-EnN"/>
                 <outlet property="TFTwo" destination="7bG-8N-7Q7" id="316-ZC-QGZ"/>
                 <outlet property="imgVOne" destination="Sg2-KT-now" id="Ep7-id-e8U"/>
                 <outlet property="imgVTh" destination="7tj-e2-Q7r" id="tUd-0Q-m8l"/>
                 <outlet property="imgVTwo" destination="fQF-41-VQP" id="hYW-HC-OPV"/>
+                <outlet property="otherLB" destination="BA5-lQ-VhD" id="i8q-OF-g6b"/>
                 <outlet property="view" destination="eJr-SS-Lwv" id="S9k-5X-bit"/>
                 <outlet property="viewOne" destination="mlQ-r1-yaW" id="Ej7-0B-Fna"/>
+                <outlet property="weiChatBt" destination="NMM-hq-5E0" id="r4Q-QM-z3a"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

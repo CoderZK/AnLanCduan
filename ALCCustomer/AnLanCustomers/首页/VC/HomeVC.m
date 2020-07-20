@@ -67,6 +67,7 @@
         return;
     }
     [self getData];
+    [self getConfigion];
     
 }
 
@@ -104,6 +105,35 @@
     [self getLineChart];
     
 }
+
+- (void)getConfigion {
+    
+    [zkRequestTool networkingPOST:appB_productStatus parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+
+        [SVProgressHUD dismiss];
+        if ([responseObject[@"key"] intValue]== 1) {
+            
+            if  ([responseObject[@"data"] integerValue] == 0) {
+                [zkSignleTool shareTool].isUp = YES;
+            }else {
+                [zkSignleTool shareTool].isUp = NO;
+            }
+            
+            
+            
+        }else {
+           
+        }
+        
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        
+       
+        
+    }];
+    
+    
+}
+
 
 - (void)getLineChart {
     

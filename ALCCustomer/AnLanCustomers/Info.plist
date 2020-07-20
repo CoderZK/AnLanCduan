@@ -90,10 +90,6 @@
 	<string>需要您的同意,才能访问相机,这样可以发帖使用图片,或者给好友发照片</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>允许使用Face ID</string>
-	<key>NSHealthShareUsageDescription</key>
-	<string>visit read "health"</string>
-	<key>NSHealthUpdateUsageDescription</key>
-	<string>visit write "health"</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>需要您的同意,才能访问位置,以便你能搜索到附近的人</string>
 	<key>NSLocationUsageDescriptionApp</key>

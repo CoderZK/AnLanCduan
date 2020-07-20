@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "337F3E5520E9FE3B00C5526A"
-               BuildableName = "&#x5065;&#x5eb7;&#x7ba1;&#x7406;.app"
+               BuildableName = "&#x5065;&#x5eb7;C&#x7aef;.app"
                BlueprintName = "AnLanCustomers"
                ReferencedContainer = "container:AnLanCustomers.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "337F3E5520E9FE3B00C5526A"
-            BuildableName = "&#x5065;&#x5eb7;&#x7ba1;&#x7406;.app"
+            BuildableName = "&#x5065;&#x5eb7;C&#x7aef;.app"
             BlueprintName = "AnLanCustomers"
             ReferencedContainer = "container:AnLanCustomers.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "337F3E5520E9FE3B00C5526A"
-            BuildableName = "&#x5065;&#x5eb7;&#x7ba1;&#x7406;.app"
+            BuildableName = "&#x5065;&#x5eb7;C&#x7aef;.app"
             BlueprintName = "AnLanCustomers"
             ReferencedContainer = "container:AnLanCustomers.xcodeproj">
          </BuildableReference>

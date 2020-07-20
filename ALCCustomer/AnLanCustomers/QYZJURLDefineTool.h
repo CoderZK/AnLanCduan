@@ -234,6 +234,10 @@ NS_ASSUME_NONNULL_BEGIN
 /** 操作消息为已读 */
 #define user_readSystemMessage URLOne@"user_readSystemMessage"
 
+/** 操作消息为已读 */
+#define appB_productStatus URLOne@"appB_productStatus"
+
+
 
 /** 更新*/
 +(NSString *)getIosConfigURL;

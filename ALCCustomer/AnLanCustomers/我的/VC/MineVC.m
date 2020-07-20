@@ -280,6 +280,15 @@
     
     
     self.footV = [[UIView alloc] initWithFrame:CGRectMake(15, CGRectGetMaxY(mineTwoV.frame) + 20, ScreenW - 30, 240)];
+    
+    if ([zkSignleTool shareTool].isUp) {
+        self.footV.mj_y = CGRectGetMaxY(mineOneV.frame) + 20;
+        mineTwoV.hidden = YES;
+    }else {
+        self.footV.mj_y = CGRectGetMaxY(mineTwoV.frame) + 20;
+        mineTwoV.hidden = NO;
+    }
+    
     self.footV.backgroundColor = WhiteColor;
     self.footV.layer.cornerRadius = 5;
     self.footV.layer.shadowColor = [UIColor blackColor].CGColor;

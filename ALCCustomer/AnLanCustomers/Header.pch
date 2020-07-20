@@ -64,7 +64,6 @@
 #import "XMCalendarView.h"
 #import "XMCalendarView.h"
 #import "BezierCurveView.h"
-#import "HealthKitManage.h"
 #import "YWUnlockView.h"
 #import "ALCLoginOneVC.h"
 #import "zkPhotoShowVC.h"

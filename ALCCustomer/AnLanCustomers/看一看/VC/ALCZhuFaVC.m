@@ -110,9 +110,9 @@
     //不需要调整inset
     //self.automaticallyAdjustsScrollViewInsets = NO;
     self.scrollview =[[UIScrollView alloc] init];
-    self.scrollview.frame = CGRectMake(0, 35 , ScreenW, ScreenH  - 35 - 49);
+    self.scrollview.frame = CGRectMake(0, 35 , ScreenW, ScreenH  - 35 - 49 - sstatusHeight - 44);
     if (sstatusHeight > 20) {
-        self.scrollview.frame = CGRectMake(0, 35 , ScreenW, ScreenH  - 35 - 49 - 34);
+        self.scrollview.frame = CGRectMake(0, 35 , ScreenW, ScreenH  - 35 - 49 - 34 -  sstatusHeight - 44);
     }
     
     self.scrollview.backgroundColor =[UIColor whiteColor];

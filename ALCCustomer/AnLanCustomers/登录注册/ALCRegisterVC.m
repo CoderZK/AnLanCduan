@@ -18,6 +18,9 @@
 /** 注释 */
 @property(nonatomic,assign)NSInteger number;
 @property (weak, nonatomic) IBOutlet UIButton *codeBt;
+@property (weak, nonatomic) IBOutlet UILabel *otherLB;
+@property (weak, nonatomic) IBOutlet UIButton *weiChatBt;
+@property (weak, nonatomic) IBOutlet UIButton *QQBt;
 
 @end
 
@@ -134,6 +137,9 @@
     NSFontAttributeName:[UIFont systemFontOfSize:15]
     }];
     self.TF.attributedPlaceholder = attrString;
+    
+    self.otherLB.hidden = self.QQBt.hidden = self.weiChatBt.hidden = [zkSignleTool shareTool].isUp;
+    
     
 }
 

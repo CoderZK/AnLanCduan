@@ -33,7 +33,7 @@
     self.layout.delegate = self;
     
     
-    self.collectionView =[[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, ScreenW, ScreenH - sstatusHeight - 44) collectionViewLayout:self.layout];
+    self.collectionView =[[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, ScreenW, ScreenH - sstatusHeight - 44 - 40 ) collectionViewLayout:self.layout];
     
     [self.collectionView registerClass:[ACLMineCollectCell class] forCellWithReuseIdentifier:@"cell"];
     
@@ -42,6 +42,10 @@
     //           self.collectionView.scrollEnabled = NO;
     self.collectionView.backgroundColor =[UIColor colorWithRed:249/255.0 green:249/255.0 blue:249/255.0 alpha:1.0];
     [self.view addSubview:self.collectionView];
+    
+    [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.top.bottom.equalTo(self.view);
+    }];
     
     if (self.isSearch) {
         

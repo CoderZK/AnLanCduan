@@ -28,7 +28,7 @@
 #define QQAppKey @"LXwoJCeQixi1CBr9"
 
 // 健康管理友盟账号：安澜健康 密码：biyou123@A 手机号：13205209300
-
+//苹果帐号：juj5407@163.com   邮箱密码：qwe123  帐号密码： Vv11223344
 
 @interface AppDelegate ()<WXApiDelegate>
 
@@ -48,6 +48,7 @@
     
     /* 设置友盟appkey */
     
+    [zkSignleTool shareTool].isUp = YES;
    
     [WXApi registerApp:WXAppID universalLink:@"https://www.onlandtech.cn/"];
   
